@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "Ambassador", targets: ["Ambassador"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/envoy/Embassy.git", from: "4.0.5")
+        .package(url: "https://github.com/zplatform/Embassy.git", from: "6.27.0")
     ],
     targets: [
         .target(name: "Ambassador", dependencies: ["Embassy"], path: "Ambassador"),
