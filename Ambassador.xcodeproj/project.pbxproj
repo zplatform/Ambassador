@@ -41,6 +41,7 @@
 		AA6732B81DE938E1003ABD4E /* URLParametersReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A881D0B745A00717A7D /* URLParametersReaderTests.swift */; };
 		AA6732B91DE938E1003ABD4E /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A8A1D0B777700717A7D /* RouterTests.swift */; };
 		AA6732BD1DE9396B003ABD4E /* Embassy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6732BC1DE9396B003ABD4E /* Embassy.framework */; };
+		B76ED3D82D96571B0068A507 /* Embassy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B76ED3D72D96571B0068A507 /* Embassy.xcframework */; };
 		D8346A551D0B5FB300717A7D /* Ambassador.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8346A4A1D0B5FB200717A7D /* Ambassador.framework */; };
 		D8346A5A1D0B5FB300717A7D /* DataResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A591D0B5FB300717A7D /* DataResponseTests.swift */; };
 		D8346A661D0B616C00717A7D /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A651D0B616C00717A7D /* DataResponse.swift */; };
@@ -50,7 +51,6 @@
 		D8346A6F1D0B62F300717A7D /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A6E1D0B62F300717A7D /* JSONReader.swift */; };
 		D8346A711D0B633700717A7D /* JSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A701D0B633700717A7D /* JSONResponse.swift */; };
 		D8346A731D0B636300717A7D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A721D0B636300717A7D /* Router.swift */; };
-		D8346A7E1D0B674F00717A7D /* Embassy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8346A7D1D0B674F00717A7D /* Embassy.framework */; };
 		D8346A831D0B6DC800717A7D /* JSONResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A821D0B6DC800717A7D /* JSONResponseTests.swift */; };
 		D8346A851D0B728300717A7D /* DataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A841D0B728300717A7D /* DataReaderTests.swift */; };
 		D8346A871D0B73B800717A7D /* JSONReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8346A861D0B73B800717A7D /* JSONReaderTests.swift */; };
@@ -91,6 +91,7 @@
 		AA6732951DE93849003ABD4E /* Ambassador.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ambassador.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA67329D1DE93849003ABD4E /* Ambassador-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambassador-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6732BC1DE9396B003ABD4E /* Embassy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Embassy.framework; path = ../Embassy/build/Debug/Embassy.framework; sourceTree = "<group>"; };
+		B76ED3D72D96571B0068A507 /* Embassy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Embassy.xcframework; path = .deps/Embassy.xcframework; sourceTree = "<group>"; };
 		D8346A4A1D0B5FB200717A7D /* Ambassador.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ambassador.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8346A541D0B5FB300717A7D /* Ambassador-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambassador-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8346A591D0B5FB300717A7D /* DataResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponseTests.swift; sourceTree = "<group>"; };
@@ -151,7 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8346A7E1D0B674F00717A7D /* Embassy.framework in Frameworks */,
+				B76ED3D82D96571B0068A507 /* Embassy.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +243,7 @@
 		D8346A7F1D0B675C00717A7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B76ED3D72D96571B0068A507 /* Embassy.xcframework */,
 				39C34088214C457100E11D82 /* Embassy.framework */,
 				AA6732BC1DE9396B003ABD4E /* Embassy.framework */,
 				D8346A7D1D0B674F00717A7D /* Embassy.framework */,
